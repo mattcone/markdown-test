@@ -36,10 +36,13 @@ second para
 
 line breaks
 
-line one with trailing whitespace
+line one with trailing whitespace  
 line two right under
 
 line one with no trailing whitespace, just hard return
+line two right under
+
+line one with no trailing backslash \
 line two right under
 
 ---
@@ -128,24 +131,147 @@ code
 
 horizontal rules
 
-throughout this, duh
+throughout this :)
 
 ---
 
 links
 
-[cnn](https://cnn.com)
+normal link => [cnn](https://cnn.com)
 
 brackets => <https://cnn.com>
 
-<me@somewhere.com>
+brackets => <me@somewhere.com>
 
-naked url => https://cnn.com
+naked url (test auto link) => https://cnn.com
 
 ---
 
 images
 
-(self test)
+![test image](https://www.markdownguide.org/assets/images/tools/joplin.png)
 
 ---
+
+## Tables
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
+---
+
+## Fenced code blocks
+
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+
+---
+
+## Syntax highlighting
+
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+
+---
+
+## Footnotes
+
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
+[^1]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs and code.
+
+    Indent paragraphs to include them in the footnote.
+
+    `{ my code }`
+
+    Add as many paragraphs as you like.
+
+---
+
+## Heading IDs
+
+### My Great Heading {#custom-id}
+
+---
+
+## Definition lists
+
+First Term
+: This is the definition of the first term.
+
+Second Term
+: This is one definition of the second term.
+: This is another definition of the second term.
+
+---
+
+## Strikethrough
+
+~~two tilde~~
+
+~one tilde~
+
+---
+
+## Task lists
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+---
+
+## Emoji
+
+copy and paste: ☕
+shortcodes: :joy:
+
+---
+
+## Highlight
+
+==twoequals==
+
+::twohypens::
+
+---
+
+## Subscript
+
+H~2~O
+
+---
+
+## Superscript
+
+X^2^
+
+---
+
+## Abbreviation
+
+*[HTML]: Hyper Text Markup Language
+
+The HTML specification is maintained by the W3C.
+
+---
+
+## HTML
+
+<em>italic test</em>
+
+<strong>bold test</strong>
